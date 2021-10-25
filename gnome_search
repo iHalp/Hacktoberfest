@@ -1,0 +1,13 @@
+def gnome_search():
+    list = [10,9,8,7,6,5,4,3,2,1]
+    i = 0
+    while i < len(list):
+        if i == 0:
+            i += 1
+            continue
+        if list[i] < list[i-1]:
+            list[i], list[i-1] = list[i-1], list[i]
+            i -= 1
+        else:
+            i += 1
+    return list
