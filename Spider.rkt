@@ -4,7 +4,7 @@
 (require 2htdp/image)
 (require 2htdp/universe)
 
-;; =================
+;; ================= Spider!
 ;; Constants:
 
 (define WIDTH 400)
