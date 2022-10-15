@@ -1,4 +1,4 @@
-# merge sort
+# merge sort!
 def merge_sort(lst):
     if len(lst) <= 1:
         return lst
